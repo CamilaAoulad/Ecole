@@ -1,0 +1,11 @@
+package fr.adaming.ecole.humain;
+
+public class Prof extends Humain{
+
+	String diplome; 
+	int salaire; 
+	
+	public void enseigner() {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package fr.adaming.javaenfant.ch2;
+
+public class BonjourMonde {
+
+	public static void main(String[] args) {
+		System.out.println("Bonjour Monde");
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package fr.adaming.javaenfant.ch3;
+
+public class GameBoyAdvance {
+	String typeCartouche;
+	  int largeurEcran;
+	  
+public static void main(String[] args) {
+	int x;
+	int y;
+	x = 5;
+	y = x + 2;
+	int monScore =5;
+	monScore =monScore +1;
+	
+	System.out.println("x = "+x);
+	System.out.println("y = "+y);
+	System.out.println("monScore = "+monScore);
+	
+}
+	    
+	  void demarrerJeu() {
+	  }
+	  void arreterJeu() {
+	  }
+
+}

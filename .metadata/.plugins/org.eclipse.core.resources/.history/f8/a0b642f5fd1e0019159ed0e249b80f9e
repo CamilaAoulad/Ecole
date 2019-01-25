@@ -1,0 +1,16 @@
+package fr.adaming.javaenfant.ch2;
+
+public class BonjourMonde {
+
+	public static void main(String[] args) {
+		System.out.println("Bonjour Monde");
+		adresse(40, "rue Mariotte","Lille");
+		
+		// TODO Auto-generated method stub
+
+	}
+public static void adresse( int numero, String rue, String Ville) {
+	System.out.println( numero + " "+ rue + " " + Ville);
+	
+}
+}

@@ -1,0 +1,10 @@
+package vehicule;
+
+public class appelerVehicule {
+public static void main(String[] args) {
+	Vehicule mavoiture = new Vehicule();
+	
+	mavoiture.rouler(60);
+	System.out.println(mavoiture.rouler(60));
+}
+}

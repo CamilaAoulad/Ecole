@@ -1,0 +1,14 @@
+package vehicule;
+
+public class ProprietaireVoiture {
+public static void main(String[] args) {
+	Voiture Voiture = new Voiture();
+	Voiture.demarrer();
+	System.out.println(" la voiture demarre");
+	Voiture.arreter();
+	System.out.println("la voiture s'arrete");
+	int resultatdistance = Voiture.rouler(20);
+	System.out.println("la voiture a parcouru "+ resultatdistance + "km" );
+	
+}
+}

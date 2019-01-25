@@ -1,0 +1,10 @@
+package vehicule;
+
+public class ProprietaireVoiture {
+public static void main(String[] args) {
+	Voiture mavoiture = new Voiture();
+	
+	mavoiture.rouler(60);
+	System.out.println(mavoiture.rouler(60));
+}
+}

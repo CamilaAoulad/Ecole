@@ -1,0 +1,11 @@
+package vehicule;
+
+public class Vehicule {
+
+	
+	
+	public String rouler(int vitesseVehicule) {
+		 String vitesse = "le vehicule roule à " + vitesseVehicule +" km/h";
+		 return vitesse;
+	}
+}

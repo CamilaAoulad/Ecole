@@ -1,0 +1,19 @@
+package vehicule;
+
+public class Voiture(int numero) {
+
+	public void demarrer() {
+		
+	}
+	
+	public void arreter() {
+		
+	}
+	public int rouler(int duree) {
+		
+		int distance = duree *60;
+		return distance;
+		
+	}
+		 
+}
